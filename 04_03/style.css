@@ -6,13 +6,13 @@
   --color-highlight: hsl(208, 96%, 63%);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
       --color-text: white;
       --color-bg: black;
       --color-highlight: hsl(208, 96%, 33%);
     }
-} */
+} 
 
 body {
   margin: 0;
@@ -34,11 +34,14 @@ img {
   margin-left: auto;
   padding: var(--content-padding);
   max-width: calc(var(--content-width) - 4rem);
+  background-color: var(--color-highlight);
 }
 
 .main {
   display: grid;
   grid-template-columns: 1fr minmax(auto, var(--content-width)) 1fr;
+  --color-highlight:yellow;
+
 }
 
 main>* {
