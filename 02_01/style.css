@@ -8,9 +8,14 @@ body {
   align-items: center;
 }
 
+img {
+  display: block;
+}
+
 figure {
   margin: 0;
-}
+  border: 1px solid black;
+} 
 
 img {
   max-width: 100%;
@@ -33,4 +38,10 @@ img {
 .card p {
   padding: 1rem;
   background-color: pink;
+}
+em {
+  background-color: yellow;
+  margin: 1rem;
+  padding: 1rem;
+  display: inline-block;
 }

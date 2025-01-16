@@ -69,3 +69,14 @@ figure.full-width>* {
   background: hsl(208, 96%, 23%);
   color: white;
 }
+quote {
+  float: inline-end;
+  width: 50%;
+  margin-block-end: 2rem;
+  margin-inline-start: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  padding-inline-start: 2rem;
+  background: hsl(208, 96%, 23%);
+  color: white;
+}
